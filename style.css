@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-a : #2C3531;
+    --color-b : #116466;
+    --color-c : #D9B08C;
+    --color-d : #FFCB9A;
+    --color-e : #D1E8E2;
+}
+
+@font-face {
+    font-family: "pirulen";
+    src: url("assets/font/pirulen/pirulen rg.otf");
+}
+
+@font-face {
+    font-family: "perfect-dark";
+    src: url("assets/font/perfect-dark-brk/pdark.ttf");
+}
+
+@font-face {
+    font-family: "sf-outer-limit";
+    src: url("assets/font/sf-outer-limit/SFOuterLimits.ttf");
+}
+
+@font-face {
+    font-family: "divlit";
+    src: url("assets/font/divlit/divlit.ttf");
+}
+
+@font-face {
+    font-family: "projects";
+    src: url("assets/font/projects/PROJECTS.TTF");
+}
+
+@font-face {
+    font-family: "vandiana-platin";
+    src: url("assets/font/vandiana-platin/Vandiana_Platin_Lite.ttf");
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+#opacity-control {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navigation {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+#navigation li {
+    list-style: none;
+    color: var(--color-e);
+}
+
+#z-logo {
+    font-family: "sf-outer-limit";
+    font-size: 2rem;
+}
+
+#navigation li:nth-child(1){
+    width: 60%;
+    margin-left: 10%;
+    font-size: 1.6rem;
+    font-family: "vandiana-platin";
+}
+
+#navigation li:nth-child(2){
+    width: 15%;
+    text-align: center;
+    font-family: "pirulen";
+}
+
+#navigation li:nth-child(3){
+    width: 15%;
+    text-align: center;
+    padding-right: 10%;
+    font-family: "pirulen";
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.outer-box {
+    width: clamp(800px, 70%, 1400px);
+    height: 80vh;
+    border-radius: 50px;
+    box-shadow: 0 0 4px 2px var(--color-e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px
+}
+
+.inner-box {
+    width: 100%;
+    height: 100%;
+    color: var(--color-e);
+    border-radius: 49px;
+    padding: 40px;
+    box-shadow: inset 0 0 4px 2px var(--color-e);
+}
+
+.headline {
+    font-size: 4rem;
+}
+

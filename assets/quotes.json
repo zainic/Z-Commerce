@@ -1,0 +1,29 @@
+{
+    "card" : [
+        {
+            "id" : 1,
+            "quote" : "The big money is not in the buying and selling, but in the waiting.",
+            "author" : "Charlie Munger"
+        },
+        {
+            "id" : 2,
+            "quote" : "Over many generations, fortunes in the business world were made through buying and selling products in physical stores. Internet fortunes have been made buying and selling products online.",
+            "author" : "Marc Ostrofsky"
+        },
+        {
+            "id" : 3,
+            "quote" : "Business is not financial science, it's about trading. buying and selling. It's about creating a product or service so good that people will pay for it.",
+            "author" : "Anita Roddick"
+        },
+        {
+            "id" : 4,
+            "quote" : "The best investment on Earth is earth.",
+            "author" : "Louis Glickman"
+        },
+        {
+            "id" : 5,
+            "quote" : "If you think you are too small to be effective, you have never been in bed with a mosquito.",
+            "author" : "Betty Reese"
+        }
+    ]
+}
